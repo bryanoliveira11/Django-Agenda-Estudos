@@ -32,7 +32,7 @@ def search(request):
 
     context = {
         'contacts': contacts,
-        'site_title': f"Search |"
+        'site_title': "Search |"
         }
 
     return render(request, 'contact/index.html', context)
